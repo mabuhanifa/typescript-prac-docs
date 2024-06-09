@@ -7,10 +7,7 @@
     student: T
   ) => {
     const course = "Next Level Web Development";
-    return {
-      ...student,
-      course,
-    };
+    return { ...student, course };
   };
 
   const student3 = addCourseToStudent({
